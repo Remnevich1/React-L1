@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+.layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  height: 70px;
+  background-color: lightblue;
+}
+.layout-canvas {
+  display: flex;
+  height: calc(100% - 70px);
+}
+.layout-left-side {
+  width: 400px;
+  background-color: #ccc;
+}
+.layout-right-side {
+  flex-grow: 1;
+}
